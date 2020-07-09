@@ -22,3 +22,7 @@ library(pakiet)
 x = list(speed = cars[["speed"]], dist = cars[["dist"]])
 list_mean(x)
 ```
+
+Ładny wynik.
+
+
