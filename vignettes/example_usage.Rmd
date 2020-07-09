@@ -1,0 +1,24 @@
+---
+title: "example_usage"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{example_usage}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+One may find example usage of package pakiet below.
+
+```{r setup}
+library(pakiet)
+
+x = list(speed = cars[["speed"]], dist = cars[["dist"]])
+list_mean(x)
+```

@@ -13,5 +13,8 @@ LazyData: true
 RoxygenNote: 7.1.0.9000
 Suggests: 
     testthat,
-    spelling
+    spelling,
+    knitr,
+    rmarkdown
 Language: en-US
+VignetteBuilder: knitr
